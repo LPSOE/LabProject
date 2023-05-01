@@ -54,7 +54,7 @@
      <string>Menu</string>
     </property>
    </widget>
-   <widget class="QRadioButton" name="radioButton">
+   <widget class="QRadioButton" name="PhoRadioButton">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -73,8 +73,11 @@
     <property name="text">
      <string>Pho ($12.99)</string>
     </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup</string>
+    </attribute>
    </widget>
-   <widget class="QRadioButton" name="radioButton_2">
+   <widget class="QRadioButton" name="ShawarmaRadioButton">
     <property name="geometry">
      <rect>
       <x>400</x>
@@ -93,6 +96,9 @@
     <property name="text">
      <string>Shawarma (15.00)</string>
     </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup</string>
+    </attribute>
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
@@ -114,7 +120,7 @@
      <string>Drinks</string>
     </property>
    </widget>
-   <widget class="QRadioButton" name="radioButton_3">
+   <widget class="QRadioButton" name="WaterRadioButton">
     <property name="geometry">
      <rect>
       <x>210</x>
@@ -126,8 +132,11 @@
     <property name="text">
      <string>Water (Free)</string>
     </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_5</string>
+    </attribute>
    </widget>
-   <widget class="QRadioButton" name="radioButton_4">
+   <widget class="QRadioButton" name="CokeRadioButton">
     <property name="geometry">
      <rect>
       <x>330</x>
@@ -139,8 +148,11 @@
     <property name="text">
      <string>Coke ($0.99)</string>
     </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_5</string>
+    </attribute>
    </widget>
-   <widget class="QRadioButton" name="radioButton_5">
+   <widget class="QRadioButton" name="PepsiRadioButton">
     <property name="geometry">
      <rect>
       <x>460</x>
@@ -152,6 +164,9 @@
     <property name="text">
      <string> Pepsi ($0.99)</string>
     </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_5</string>
+    </attribute>
    </widget>
    <widget class="QLabel" name="label_3">
     <property name="geometry">
@@ -173,7 +188,7 @@
      <string>Tips</string>
     </property>
    </widget>
-   <widget class="QRadioButton" name="radioButton_6">
+   <widget class="QRadioButton" name="Tips1Button">
     <property name="geometry">
      <rect>
       <x>230</x>
@@ -185,8 +200,11 @@
     <property name="text">
      <string>10%</string>
     </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_6</string>
+    </attribute>
    </widget>
-   <widget class="QRadioButton" name="radioButton_7">
+   <widget class="QRadioButton" name="Tips2Button">
     <property name="geometry">
      <rect>
       <x>340</x>
@@ -198,11 +216,14 @@
     <property name="text">
      <string>15%</string>
     </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_6</string>
+    </attribute>
    </widget>
-   <widget class="QRadioButton" name="radioButton_8">
+   <widget class="QRadioButton" name="Tips3Button">
     <property name="geometry">
      <rect>
-      <x>460</x>
+      <x>430</x>
       <y>350</y>
       <width>100</width>
       <height>20</height>
@@ -211,6 +232,9 @@
     <property name="text">
      <string>20%</string>
     </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_6</string>
+    </attribute>
    </widget>
    <widget class="QLabel" name="label_4">
     <property name="geometry">
@@ -271,7 +295,7 @@
      <string>Clear</string>
     </property>
    </widget>
-   <widget class="QRadioButton" name="radioButton_9">
+   <widget class="QRadioButton" name="Beefbutton1">
     <property name="geometry">
      <rect>
       <x>130</x>
@@ -281,10 +305,13 @@
      </rect>
     </property>
     <property name="text">
-     <string>Beef</string>
+     <string>Beef </string>
     </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_2</string>
+    </attribute>
    </widget>
-   <widget class="QRadioButton" name="radioButton_10">
+   <widget class="QRadioButton" name="PorkButton">
     <property name="geometry">
      <rect>
       <x>130</x>
@@ -294,10 +321,13 @@
      </rect>
     </property>
     <property name="text">
-     <string>Pork</string>
+     <string>Pork </string>
     </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_2</string>
+    </attribute>
    </widget>
-   <widget class="QRadioButton" name="radioButton_11">
+   <widget class="QRadioButton" name="ChickenButton1">
     <property name="geometry">
      <rect>
       <x>130</x>
@@ -309,8 +339,11 @@
     <property name="text">
      <string>Chicken</string>
     </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_2</string>
+    </attribute>
    </widget>
-   <widget class="QRadioButton" name="radioButton_12">
+   <widget class="QRadioButton" name="BeefButton2">
     <property name="geometry">
      <rect>
       <x>430</x>
@@ -322,8 +355,11 @@
     <property name="text">
      <string>Beef</string>
     </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_3</string>
+    </attribute>
    </widget>
-   <widget class="QRadioButton" name="radioButton_13">
+   <widget class="QRadioButton" name="ChickenButton2">
     <property name="geometry">
      <rect>
       <x>430</x>
@@ -335,50 +371,14 @@
     <property name="text">
      <string>Chicken</string>
     </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_3</string>
+    </attribute>
    </widget>
-   <widget class="QRadioButton" name="radioButton_14">
+   <widget class="QRadioButton" name="MildButton1">
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>210</y>
-      <width>61</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Mild</string>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButton_15">
-    <property name="geometry">
-     <rect>
-      <x>420</x>
-      <y>210</y>
-      <width>81</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Medium</string>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButton_16">
-    <property name="geometry">
-     <rect>
-      <x>530</x>
-      <y>210</y>
-      <width>71</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Spicy</string>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButton_17">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
+      <x>200</x>
       <y>240</y>
       <width>51</width>
       <height>16</height>
@@ -388,10 +388,10 @@
      <string>Mild</string>
     </property>
    </widget>
-   <widget class="QRadioButton" name="radioButton_18">
+   <widget class="QRadioButton" name="MediumButton1">
     <property name="geometry">
      <rect>
-      <x>130</x>
+      <x>300</x>
       <y>240</y>
       <width>81</width>
       <height>16</height>
@@ -401,10 +401,10 @@
      <string>Medium</string>
     </property>
    </widget>
-   <widget class="QRadioButton" name="radioButton_19">
+   <widget class="QRadioButton" name="SpicyButton1">
     <property name="geometry">
      <rect>
-      <x>230</x>
+      <x>430</x>
       <y>240</y>
       <width>61</width>
       <height>21</height>
@@ -412,6 +412,26 @@
     </property>
     <property name="text">
      <string>Spicy</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>240</y>
+      <width>60</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Spice</string>
     </property>
    </widget>
   </widget>
@@ -429,4 +449,11 @@
  </widget>
  <resources/>
  <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup_5"/>
+  <buttongroup name="buttonGroup"/>
+  <buttongroup name="buttonGroup_6"/>
+  <buttongroup name="buttonGroup_3"/>
+  <buttongroup name="buttonGroup_2"/>
+ </buttongroups>
 </ui>
