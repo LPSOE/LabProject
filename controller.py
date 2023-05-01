@@ -38,5 +38,11 @@ class Controller(QMainWindow, Ui_MainWindow):
                         self.receiptLabel.setText(f"\t Receipt \n Shawarma: \t\t$15.00 \n meat: \t\t\t$1.99 \n spice: mild, medium, spicy \n tax:\t\t\t${tax:.2f} \n total tip:\t\t\t${total_tip:.2f} \n total bill:\t\t${total_bill:.2f}")
 
     def clear(self):
-        self.receiptLabel.setText("")
-
+        self.receiptLabel.setText('')
+        self.BeefButton2.setCheckable(False)
+        self.ChickenButton2.setCheckable(False)
+        self.PhoRadioButton.setChecked(True)
+        self.Beefbutton1.setChecked(True)
+        self.MildButton1.setChecked(True)
+        self.WaterRadioButton.setChecked(True)
+        self.Tips1Button.setChecked(True)
