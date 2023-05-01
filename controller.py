@@ -35,7 +35,7 @@ class Controller(QMainWindow, Ui_MainWindow):
                         tax = (15.00 + drink) * 0.1
                         total_tip = (15.00 + tax + drink) * tip
                         total_bill = 15.00 + tax + total_tip + drink
-                        self.receiptLabel.setText(f"\t Receipt \n Shawarma: $15.00 \n meat: $1.99 \n spice: mild, medium, spicy \n drink:{drink}(water, coke and pepsi) \n tax:{tax} \n total tip:{total_tip} \n total bill:{total_bill}")
+                        self.receiptLabel.setText(f"\t Receipt \n Shawarma: \t\t$15.00 \n meat: \t\t\t$1.99 \n spice: mild, medium, spicy \n tax:\t\t\t${tax:.2f} \n total tip:\t\t\t${total_tip:.2f} \n total bill:\t\t${total_bill:.2f}")
 
     def clear(self):
         self.receiptLabel.setText("")
