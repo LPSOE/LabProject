@@ -74,7 +74,7 @@
      <string>Pho ($12.99)</string>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup</string>
+     <string notr="true">PhoButtonGroup</string>
     </attribute>
    </widget>
    <widget class="QRadioButton" name="ShawarmaRadioButton">
@@ -97,7 +97,7 @@
      <string>Shawarma (15.00)</string>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup</string>
+     <string notr="true">PhoButtonGroup</string>
     </attribute>
    </widget>
    <widget class="QLabel" name="label_2">
@@ -133,7 +133,7 @@
      <string>Water (Free)</string>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup_5</string>
+     <string notr="true">SpiceButtonGroup</string>
     </attribute>
    </widget>
    <widget class="QRadioButton" name="CokeRadioButton">
@@ -149,7 +149,7 @@
      <string>Coke ($0.99)</string>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup_5</string>
+     <string notr="true">SpiceButtonGroup</string>
     </attribute>
    </widget>
    <widget class="QRadioButton" name="PepsiRadioButton">
@@ -165,7 +165,7 @@
      <string> Pepsi ($0.99)</string>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup_5</string>
+     <string notr="true">SpiceButtonGroup</string>
     </attribute>
    </widget>
    <widget class="QLabel" name="label_3">
@@ -201,7 +201,7 @@
      <string>10%</string>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup_6</string>
+     <string notr="true">DrinkButtonGroup</string>
     </attribute>
    </widget>
    <widget class="QRadioButton" name="Tips2Button">
@@ -217,7 +217,7 @@
      <string>15%</string>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup_6</string>
+     <string notr="true">DrinkButtonGroup</string>
     </attribute>
    </widget>
    <widget class="QRadioButton" name="Tips3Button">
@@ -233,7 +233,7 @@
      <string>20%</string>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup_6</string>
+     <string notr="true">DrinkButtonGroup</string>
     </attribute>
    </widget>
    <widget class="QLabel" name="receiptLabel">
@@ -288,7 +288,7 @@
      <string>Beef </string>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup_2</string>
+     <string notr="true">ConButtonGroup1</string>
     </attribute>
    </widget>
    <widget class="QRadioButton" name="PorkButton">
@@ -304,7 +304,7 @@
      <string>Pork </string>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup_2</string>
+     <string notr="true">ConButtonGroup1</string>
     </attribute>
    </widget>
    <widget class="QRadioButton" name="ChickenButton1">
@@ -320,7 +320,7 @@
      <string>Chicken</string>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup_2</string>
+     <string notr="true">ConButtonGroup1</string>
     </attribute>
    </widget>
    <widget class="QRadioButton" name="BeefButton2">
@@ -336,7 +336,7 @@
      <string>Beef</string>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup_3</string>
+     <string notr="true">ConButtonGroup2</string>
     </attribute>
    </widget>
    <widget class="QRadioButton" name="ChickenButton2">
@@ -352,7 +352,7 @@
      <string>Chicken</string>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup_3</string>
+     <string notr="true">ConButtonGroup2</string>
     </attribute>
    </widget>
    <widget class="QRadioButton" name="MildButton1">
@@ -430,10 +430,10 @@
  <resources/>
  <connections/>
  <buttongroups>
-  <buttongroup name="buttonGroup_5"/>
-  <buttongroup name="buttonGroup"/>
-  <buttongroup name="buttonGroup_6"/>
-  <buttongroup name="buttonGroup_3"/>
-  <buttongroup name="buttonGroup_2"/>
+  <buttongroup name="SpiceButtonGroup"/>
+  <buttongroup name="PhoButtonGroup"/>
+  <buttongroup name="DrinkButtonGroup"/>
+  <buttongroup name="ConButtonGroup2"/>
+  <buttongroup name="ConButtonGroup1"/>
  </buttongroups>
 </ui>
